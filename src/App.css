@@ -2,6 +2,93 @@
   text-align: center;
 }
 
+.App{
+  display: flex;
+  justify-content:space-evenly;
+ 
+}
+.home{
+  margin-top: 15vh;
+}
+
+.login-form-style {
+  margin-top:200px;
+ 
+}
+
+.login-form-container{
+ box-shadow: 1px 1px 20px 5px rgb(239, 241, 239);
+  margin:90px 100px 0px 100px;
+  border-radius: 5px;
+  overflow: hidden;
+
+}
+
+.login-form-container-1 img{
+ height: 70vh;
+}
+h1{
+   margin-bottom: 50px;
+   font-family: cursive;
+}
+.login-form-container-2{
+ margin-top: -100px;
+ 
+
+}
+input[type="email"] , input[type="password"],input[type="text"],input[type="date"]{
+  width: 40vh;
+  outline: none;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+input:focus{
+  border: 3px solid  #93bffd;
+  
+}
+.form-row input{
+  margin-right: 8vh;
+}
+input[type="submit"]{
+  width: 40vh;
+  padding: 6px;
+  background-color: #93bffd;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+span{
+  position: relative;
+  bottom: 20px;
+}
+.registration{
+  box-shadow: 1px 1px 20px 5px rgb(239, 241, 239);
+  margin: 50px 80px;
+  
+  height: 70vh;
+}
+.registration-form-container-1{
+  margin-top: 60px;
+  margin-left: 5vh;
+}
+
+.registration-form-container-2{
+  margin-top: 3vh;
+}
+
+.registration input[type="submit"]{
+  width:88vh;
+  position: relative;
+  right:55px;
+  letter-spacing: 2px;
+}
+.registration  p{
+  position: absolute;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
